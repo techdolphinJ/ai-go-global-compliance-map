@@ -2,7 +2,7 @@
 
 For a China-based AI product entering a new market, this map identifies the practical compliance gates to clear before launch—without requiring a founder or operator to start from scratch across national regulatory portals.
 
-This first release covers the **European Union, South Korea, Singapore, Indonesia, and Japan**. It is deliberately limited to legal and regulatory information that can be anchored to public first-party sources.
+This release covers the **European Union, South Korea, Singapore, Indonesia, Japan, the United States, Brazil, and the United Arab Emirates**. It is deliberately limited to legal and regulatory information that can be anchored to public first-party sources.
 
 > **Related work:** [AI Model Economics](https://github.com/techdolphinJ/ai-model-economics) (the cost layer) · [AI Vendor Commercialization Matrix](https://github.com/techdolphinJ/ai-vendor-commercialization-matrix) (the selection layer). This map covers the compliance and landing layer of taking AI global.
 
@@ -17,6 +17,12 @@ This first release covers the **European Union, South Korea, Singapore, Indonesi
 | Payments and funds — legal layer | Which payment, foreign-exchange, remittance, or local-licensing rules are official legal gates? |
 
 The country-by-country source cards are in [data/official-compliance-map.md](data/official-compliance-map.md). Every card has an official source URL, a source/version year, and the same verification date: **2026-07-31**.
+
+## Deliberate handling of complex markets
+
+- **United States:** the map separates the federal layer from clearly labelled **representative state examples, not exhaustive**. It never converts a California or Washington rule into a nationwide rule.
+- **Brazil:** the tax card is explicitly a **tax-reform transition** card. LC 214/2025 is not presented as a fully settled, universally applicable end-state; implementation dates must be checked.
+- **United Arab Emirates:** the AI card is deliberately labelled **Secondary source only — official original pending verification**. A federal AI-specific legal source for an AI-service entry or registration requirement was not located, and the UAE AI Strategy is not substituted for a legal conclusion.
 
 ## Example: the European Union, fully decomposed
 
@@ -37,7 +43,7 @@ The country-by-country source cards are in [data/official-compliance-map.md](dat
 
 ## Market operations (non-official sources)
 
-**Non-official source layer — reference only.** Mainstream payment methods, acquirer onboarding experience, pricing practices, and processor availability are market-operating facts rather than legislation. They are intentionally separated from the official legal map and are **not populated in v1** until each claim can be dated, attributed, and visibly labelled as non-official. See [data/market-operations-non-official.md](data/market-operations-non-official.md).
+**Non-official source layer — reference only.** Mainstream payment methods, acquirer onboarding experience, pricing practices, and processor availability are market-operating facts rather than legislation. They are intentionally separated from the official legal map and are **not populated in this release** until each claim can be dated, attributed, and visibly labelled as non-official. See [data/market-operations-non-official.md](data/market-operations-non-official.md).
 
 ## Scope and disclaimer
 
@@ -45,7 +51,7 @@ This repository is a practical organisation of compliance information, **not leg
 
 The first gate to taking an AI product global is not the product. It is the ability to land compliantly. This map breaks “Can we enter this market?” into traceable, practical gates.
 
-## Roadmap
+## Coverage and next expansion
 
-- **V1 (this repository):** European Union, South Korea, Singapore, Indonesia, Japan.
-- **Later, intentionally excluded from V1:** United States (federal–state split), Brazil (tax-reform timeline), and the United Arab Emirates (AI-specific primary-source verification still incomplete).
+- **Published coverage:** European Union, South Korea, Singapore, Indonesia, Japan, United States, Brazil, and United Arab Emirates.
+- **Next expansion:** add further representative U.S. state cards, Brazil tax-reform implementation milestones, and UAE emirate/free-zone-specific primary sources only where an official original is located.

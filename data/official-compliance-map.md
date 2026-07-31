@@ -1,6 +1,6 @@
-# Official Compliance Map — V1
+# Official Compliance Map
 
-**Markets:** European Union, South Korea, Singapore, Indonesia, Japan
+**Markets:** European Union, South Korea, Singapore, Indonesia, Japan, United States, Brazil, United Arab Emirates
 
 **Source standard:** public first-party legal or regulatory material only
 **Verification date for every entry:** **2026-07-31**
@@ -21,6 +21,9 @@
 | Singapore | Official primary source | Official primary source | Official primary source | Government guideline, non-licensing | Official primary source |
 | Indonesia | Official primary source | Official primary source | Official primary source | Official electronic-system baseline; no AI-specific Act relied on | Official primary source |
 | Japan | Official primary source | Official primary source | Official primary source | Government guideline, non-licensing | Official primary source |
+| United States | Federal layer plus representative state examples, not exhaustive | State-level tax example, not nationwide | Federal IP; entity formation is state-specific | Federal voluntary framework plus representative state example, not exhaustive | Federal MSB layer plus representative state example, not exhaustive |
+| Brazil | Official primary source | Official primary source; tax-reform transition | Official primary source | Policy / legislative development | Official primary source |
+| United Arab Emirates | Official primary source | Official primary source | Official primary source; mainland/free-zone split | Secondary source only — no eligible federal AI-specific primary source located | Official primary source |
 
 ---
 
@@ -82,6 +85,48 @@
 | AI regulatory status | **Government guideline — not a generic mandatory AI-service licence.** METI’s AI Guidelines for Business provide official guidance for AI business operators. | [METI: AI Guidelines for Business, Version 1.2](https://www.meti.go.jp/shingikai/mono_info_service/ai_shakai_jisso/20260331_report.html) | Version 1.2; 2026 | 2026-07-31 |
 | Payments and funds — legal layer | Payment and foreign-exchange questions must be assessed under the Payment Services Act and Foreign Exchange and Foreign Trade Act according to the transaction flow. | [FSA legislation and guidance](https://www.fsa.go.jp/en/refer/legislation/index.html) · [e-Gov: Payment Services Act](https://elaws.e-gov.go.jp/document?lawid=321AC0000000059) | Payment Services Act 2009; verify consolidated version before use | 2026-07-31 |
 
+---
+
+## United States — federal layer and representative state examples
+
+> **Scope warning:** U.S. rules are split across federal and state authorities. Every state reference below is a **representative state example, not exhaustive**. State rules differ and no California or Washington source is a nationwide rule.
+
+| Dimension | Regulatory status and practical gate | Official source | Source / version year | Last verified |
+| --- | --- | --- | --- | --- |
+| Data compliance | **State-level, not nationwide.** This map does not use a federal comprehensive privacy law as a single U.S. answer. **Representative state example, not exhaustive:** California’s CCPA, as amended by CPRA, creates consumer privacy rights and business duties for covered California activity. | [California DOJ: CCPA](https://oag.ca.gov/privacy/ccpa) | CCPA 2018; CPRA amendments effective 2023; DOJ page updated 2024 | 2026-07-31 |
+| Tax | **State-level tax system; no federal VAT.** **Representative state example, not exhaustive:** Washington taxes defined digital products, digital automated services, and remote-access software under its own sales/use-tax framework. A product classification and nexus analysis is state-specific. | [Washington Department of Revenue: Digital products](https://dor.wa.gov/forms-publications/publications-subject/tax-topics/digital-products-including-digital-goods) | Washington DOR page reflects changes effective 2025-10-01 | 2026-07-31 |
+| Legal entity / contracts / IP | Federal trademark registration is a nationwide IP anchor; there is no single federal incorporation regime for ordinary companies, so formation and qualification remain state-specific. Contract choice-of-law analysis is transaction and state specific. | [USPTO: Trademark basics](https://www.uspto.gov/trademarks/basics) | Lanham Act 1946; USPTO official portal | 2026-07-31 |
+| AI regulatory status | **No federal, economy-wide AI Act is used as the U.S. rule in this map.** Federal material is policy and voluntary risk management: NIST AI RMF is voluntary, while Executive Order 14179 is an executive-policy instrument, not a general AI-service licence. **Representative state example, not exhaustive:** California’s AI Transparency Act is state law. | [NIST AI RMF](https://www.nist.gov/itl/ai-risk-management-framework) · [Executive Order 14179](https://www.federalregister.gov/documents/full_text/html/2025/01/31/2025-02172.html) · [California SB 942](https://www.leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202320240SB942) | NIST AI RMF 1.0 (2023); EO 14179 (2025); California SB 942 (2024) | 2026-07-31 |
+| Payments and funds — legal layer | Federal MSB registration and state money-transmitter licensing can both matter, depending on the activity. **Representative state example, not exhaustive:** California’s Money Transmission Act prohibits unlicensed money transmission in California unless an exemption or licensed-agent route applies. | [FinCEN: MSB registration](https://www.fincen.gov/resources/money-services-business-msb-registration) · [California Money Transmission Act, Financial Code §2030](https://www.leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?article=&chapter=3.&division=1.2.&lawCode=FIN&part=&title=) | 31 CFR 1022.380 / FinCEN page (2026); California Money Transmission Act (2011; cited licence provision amended 2012) | 2026-07-31 |
+
+---
+
+## Brazil — tax-reform transition
+
+> **Tax timing warning:** Brazil is in a tax-reform transition. New and legacy rules are implemented in phases; do not describe LC 214/2025 as a fully settled, universally applicable tax end-state. Verify the implementation calendar, transaction type, and the rule effective on the launch date.
+
+| Dimension | Regulatory status and practical gate | Official source | Source / version year | Last verified |
+| --- | --- | --- | --- | --- |
+| Data compliance | LGPD is the privacy-law anchor. ANPD Resolution No. 19 establishes the international-data-transfer mechanisms, including standard contractual clauses, binding corporate rules, and adequacy decisions. | [ANPD: International Data Transfer Regulation No. 19/2024](https://www.gov.br/anpd/pt-br/acesso-a-informacao/institucional/atos-normativos/regulamentacoes_anpd/resolucao-cd-anpd-no-19-de-23-de-agosto-de-2024) | LGPD 2018; ANPD Resolution No. 19 (2024) | 2026-07-31 |
+| Tax | **Tax-reform transition — phased implementation.** Complementary Law No. 214/2025 establishes the IBS, CBS, and Selective Tax framework. It must be read with its transition and implementation schedule; legacy and new rules should not be treated as one stable, fully implemented system. | [Complementary Law No. 214/2025](https://legislacao.presidencia.gov.br/atos/?ano=2025&ato=ce1MTUU1UNZpWTe25&numero=214&tipo=LCP) | 2025; implementation and transition dates require launch-date verification | 2026-07-31 |
+| Legal entity / contracts / IP | A foreign company establishing a branch, agency, or establishment in Brazil must obtain prior federal authorisation through the business-registration route. The precise entity, contractual, and IP route remains fact-specific. | [DREI: foreign companies and branch authorisation](https://www.gov.br/empresas-e-negocios/pt-br/drei/empresas-estrangeiras) | DREI Instruction No. 77 (2020); official service page updated 2026-01-02 | 2026-07-31 |
+| AI regulatory status | **Policy / legislative development — not an effective comprehensive AI law in this map.** The Brazilian AI Plan is official policy. PL 2338/2023 is an official legislative record under consideration, not a binding AI Act. | [MCTI: Brazilian AI Plan 2024–2028](https://www.gov.br/mcti/pt-br/acompanhe-o-mcti/transformacaodigital/plano-brasileiro-de-inteligencia-artificial) · [Federal Senate: PL 2338/2023 record](https://www25.senado.leg.br/web/atividade/materias/-/materia/157233/pdf?_materia_WAR_atividadeportlet_conversion=isca-agentes-ia) | PBIA 2024–2028; PL 2338/2023, legislative status checked 2026 | 2026-07-31 |
+| Payments and funds — legal layer | Foreign-exchange, inflow/outflow, cross-border payment and transfer, and non-resident account questions are within the BCB framework. A payment product must be assessed against the relevant authorised-provider and foreign-exchange rules. | [BCB Resolution No. 277](https://www.bcb.gov.br/content/financialstability/Brazilian_Prudential_Financial_Regulation_Docs/ResolutionBCB277.pdf) | Resolution No. 277 (2022); English information translation incorporates amendments through 2025 | 2026-07-31 |
+
+---
+
+## United Arab Emirates — federal source status and jurisdiction split
+
+> **Jurisdiction warning:** mainland, free-zone, and financial-free-zone rules may differ. The federal sources below are starting points, not an assertion that one route covers every emirate or free-zone activity.
+
+| Dimension | Regulatory status and practical gate | Official source | Source / version year | Last verified |
+| --- | --- | --- | --- | --- |
+| Data compliance | Federal Decree-Law No. 45 of 2021 is the federal personal-data-protection anchor. Its scope and any relevant free-zone regime must be checked for the actual establishment and processing design. | [Official UAE Government Portal: Personal Data Protection Law](https://u.ae/en/about-the-uae/digital-uae/data/data-protection-laws.) | Federal Decree-Law No. 45 (2021) | 2026-07-31 |
+| Tax | The Federal Tax Authority’s e-commerce guide covers VAT treatment and place-of-supply analysis for electronic services. It is the official starting point for a digital-service tax review. | [FTA: E-Commerce VAT Guide](https://tax.gov.ae/DataFolder/Files/Pdf/E-Commerce%20-%20VAT%20Guide%20-%20EN%20-%2009%2008%202020.pdf) | VAT Guide (2020) | 2026-07-31 |
+| Legal entity / contracts / IP | Foreign ownership and registration analysis must distinguish mainland and free-zone routes. The federal Commercial Register source expressly covers foreign-company branches, offices, agencies, and free-zone activity; activity-specific approvals can differ. | [UAE Legislation: Commercial Register](https://uaelegislation.gov.ae/en/legislations/1532) · [UAE official portal: foreign ownership](https://u.ae/ar/information-and-services/business/doing-business-on-the-mainland/full-foreign-ownership-of-commercial-companies) | Federal Decree-Law No. 37 (2021); official portal updated 2026-04 | 2026-07-31 |
+| AI regulatory status | **Secondary source only — official original pending verification.** No federal AI-specific primary legal source was located that directly answers an AI-service entry, registration, or filing requirement. The UAE AI Strategy is a strategy and **must not be substituted for a legal conclusion**. No secondary commentary is used as legal authority. | [Official UAE strategy overview — excluded as legal authority](https://u.ae/en/about-the-uae/uae-in-the-future/uae-future) | UAE AI Strategy 2017; strategy, not an AI-service regulation | 2026-07-31 |
+| Payments and funds — legal layer | Issuing or operating a stored-value facility in the State requires prior CBUAE licensing unless an exemption applies. The rule itself distinguishes the State from financial free zones and requires an applicant to be incorporated in the UAE, subject to the rule’s scope. | [CBUAE Stored Value Facilities Regulation](https://rulebook.centralbank.ae/en/rulebook/stored-value-facilities-svf-regulation) | Circular No. 6/2020; effective 2020-10-30; in force | 2026-07-31 |
+
 ## Source-quality exceptions
 
-No V1 cell is marked **Secondary source only — official original pending verification**. The entries remain deliberately bounded: a public official source may establish the regulatory starting point without resolving every product-specific fact pattern. No external law-firm, consulting, media, or payment-processor article is used as legal authority in this file.
+The **United Arab Emirates AI regulatory-status** card is marked **Secondary source only — official original pending verification** because no federal AI-specific primary legal source was located for an AI-service entry, registration, or filing requirement. The linked official UAE AI-strategy page is shown only to prevent its misuse as a legal source; it is not legal authority for that card. No external law-firm, consulting, media, or payment-processor article is used as legal authority in this file.
