@@ -5,7 +5,7 @@ description: Query source-linked AI go-global compliance cards for 18 markets, c
 
 # AI Go Global Compliance Map
 
-Query a market’s official-source compliance card for a China-based AI product before launch. The output keeps the distinction between **depth-tier** markets (five dimensions) and **breadth-tier** markets (two official anchors plus three explicit coverage boundaries).
+Query a market’s official-source compliance card for any AI product before launch. The output keeps the distinction between **depth-tier** markets (five dimensions) and **breadth-tier** markets (two official anchors plus three explicit coverage boundaries).
 
 ## Run
 

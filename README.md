@@ -1,10 +1,10 @@
 # AI Go Global Compliance Map
 
-For a China-based AI product entering a new market, this map identifies the practical compliance gates to clear before launch—without requiring a founder or operator to start from scratch across national regulatory portals.
+For any AI product entering a new market, this map identifies the practical compliance gates to clear before launch—without requiring a founder or operator to start from scratch across national regulatory portals.
 
 This release uses intentional **tiered coverage**: eight depth-tier markets and ten breadth-tier markets. Every populated compliance statement is anchored to public first-party legal, regulatory, government, or official-legislative material.
 
-> **Related work:** [AI Model Economics](https://github.com/techdolphinJ/ai-model-economics) (the cost layer) · [AI Vendor Commercialization Matrix](https://github.com/techdolphinJ/ai-vendor-commercialization-matrix) (the selection layer). This map covers the compliance and landing layer of taking AI global.
+> **Related work — the AI go-global toolkit:** [AI Model Economics](https://github.com/techdolphinJ/ai-model-economics) (cost) → [AI Vendor Commercialization Matrix](https://github.com/techdolphinJ/ai-vendor-commercialization-matrix) (vendor selection) → [AI Go Global Compliance Map](https://github.com/techdolphinJ/ai-go-global-compliance-map) (compliance & landing).
 
 ## What this map answers
 
