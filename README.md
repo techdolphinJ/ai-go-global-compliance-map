@@ -2,7 +2,7 @@
 
 For a China-based AI product entering a new market, this map identifies the practical compliance gates to clear before launch—without requiring a founder or operator to start from scratch across national regulatory portals.
 
-This release covers the **European Union, South Korea, Singapore, Indonesia, Japan, the United States, Brazil, and the United Arab Emirates**. It is deliberately limited to legal and regulatory information that can be anchored to public first-party sources.
+This release uses intentional **tiered coverage**: eight depth-tier markets and ten breadth-tier markets. Every populated compliance statement is anchored to public first-party legal, regulatory, government, or official-legislative material.
 
 > **Related work:** [AI Model Economics](https://github.com/techdolphinJ/ai-model-economics) (the cost layer) · [AI Vendor Commercialization Matrix](https://github.com/techdolphinJ/ai-vendor-commercialization-matrix) (the selection layer). This map covers the compliance and landing layer of taking AI global.
 
@@ -16,7 +16,14 @@ This release covers the **European Union, South Korea, Singapore, Indonesia, Jap
 | AI regulatory status | Is there an effective AI law, a government guideline, or only a policy/legislative development? |
 | Payments and funds — legal layer | Which payment, foreign-exchange, remittance, or local-licensing rules are official legal gates? |
 
-The country-by-country source cards are in [data/official-compliance-map.md](data/official-compliance-map.md). Every card has an official source URL, a source/version year, and the same verification date: **2026-07-31**.
+## Intentional tiered coverage
+
+This is a coverage design, not a list of partly completed countries.
+
+- **Depth tier — 8 markets:** **European Union, South Korea, Singapore, Indonesia, Japan, United States, Brazil, and United Arab Emirates.** [The depth-tier map](data/official-compliance-map.md) covers all five dimensions with official primary-source cards: data compliance, tax, legal entity / contracts / IP, AI regulatory status, and payments / funds — legal layer.
+- **Breadth tier — 10 markets:** **United Kingdom, India, Viet Nam, Thailand, Malaysia, Mexico, Saudi Arabia, Nigeria, Australia, and Canada.** [The breadth-tier map](data/breadth-tier.md) deliberately anchors only data compliance and AI regulatory status with official sources. Tax, legal entity / contracts / IP, and payments / funds are visibly marked **Not covered in breadth tier — see depth-tier methodology** rather than guessed.
+
+Every populated card has an official source URL, a source/version year, and the same verification date: **2026-07-31**.
 
 ## Deliberate handling of complex markets
 
@@ -53,5 +60,6 @@ The first gate to taking an AI product global is not the product. It is the abil
 
 ## Coverage and next expansion
 
-- **Published coverage:** European Union, South Korea, Singapore, Indonesia, Japan, United States, Brazil, and United Arab Emirates.
-- **Next expansion:** add further representative U.S. state cards, Brazil tax-reform implementation milestones, and UAE emirate/free-zone-specific primary sources only where an official original is located.
+- **Depth tier (8):** European Union, South Korea, Singapore, Indonesia, Japan, United States, Brazil, and United Arab Emirates.
+- **Breadth tier (10):** United Kingdom, India, Viet Nam, Thailand, Malaysia, Mexico, Saudi Arabia, Nigeria, Australia, and Canada.
+- **Next expansion:** deepen breadth-tier markets only where all five dimensions can be sourced to official originals; add further representative U.S. state cards, Brazil tax-reform implementation milestones, and UAE emirate/free-zone-specific primary sources only where an official original is located.
