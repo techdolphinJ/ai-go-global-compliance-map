@@ -25,6 +25,30 @@ This is a coverage design, not a list of partly completed countries.
 
 Every populated card has an official source URL, a source/version year, and the same verification date: **2026-07-31**.
 
+## Query it
+
+Query a complete source-linked country card instead of reading the tables manually:
+
+```bash
+python3 query.py korea
+python3 query.py uk
+python3 query.py --all
+```
+
+Inputs are case-insensitive. Short names such as `eu`, `korea`, `us`, `uae`, `uk`, `vietnam`, and `saudi` are supported, as are common aliases including `usa`, `great britain`, and `ksa`.
+
+The script reads [data/official-compliance-map.md](data/official-compliance-map.md) and [data/breadth-tier.md](data/breadth-tier.md) at runtime. It contains no copied compliance claims, country-card values, or official-source URLs; the Markdown files remain the sole source of truth. Depth-tier output displays all five dimensions. Breadth-tier output displays its two official anchors and explicitly marks the other three dimensions as `Not covered in breadth tier — see depth-tier methodology`.
+
+## Installation
+
+**Tested 2026-07-31:** this command installed the `ai-go-global-compliance-map` skill from the public repository into an isolated Codex test directory, including `query.py` and both Markdown data files.
+
+```bash
+npx --yes skills add https://github.com/techdolphinJ/ai-go-global-compliance-map --skill ai-go-global-compliance-map
+```
+
+Remove `--yes` if you prefer `npx` to ask before downloading the `skills` package. After installation, run `python3 query.py <country>` from the installed skill directory.
+
 ## Deliberate handling of complex markets
 
 - **United States:** the map separates the federal layer from clearly labelled **representative state examples, not exhaustive**. It never converts a California or Washington rule into a nationwide rule.
